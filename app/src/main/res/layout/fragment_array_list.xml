@@ -13,15 +13,14 @@
     </ListView>
 
     <!-- TODO: Update blank fragment layout -->
-    <androidx.fragment.app.FragmentContainerView
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabButton"
         android:src="@drawable/ic_baseline_add_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="100dp"
+        android:layout_margin="@dimen/margin_20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="80dp"
 
         />
 

@@ -62,6 +62,7 @@ class ArrayListFragment : Fragment() {
                 }
                 else{
                     arrayList.add(dialogBinding.etNewItem.text.toString())
+                    adapter.notifyDataSetChanged()
                     dialog.dismiss()
                 }
 
@@ -80,6 +81,8 @@ class ArrayListFragment : Fragment() {
                 }
                 else{
                     arrayList.set(i,dialogBinding.etUpdateItem.text.toString())
+                    adapter.notifyDataSetChanged()
+
                     dialog.dismiss()
                 }
             }

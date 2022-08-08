@@ -9,10 +9,8 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.rupinder.fragmentlist.ArrayListFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="290dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     </androidx.fragment.app.FragmentContainerView>
 
 </LinearLayout>
